@@ -33,6 +33,8 @@ Follow the commands here to make a new Ionic project: https://ionicframework.com
 
 3) To run the Flask API, navigate using the terminal or command prompt to the folder where you have all the python scripts saved.
 All the python scripts must be in the same directory (folder).
+First follow the simple instructions in the sendtest.py file to pass some parameters for the email service to work.
+Follow the instructions (see strings wit underscore _ ) in line 7, 17, 21, 28, 29.
 
 4) Run the execute the python script named RestService.py.
 
