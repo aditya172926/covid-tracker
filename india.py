@@ -43,7 +43,7 @@ def graph():
     #fig.gca().add_artist(central_circle)
     #plt.rc('font', size = 12)
     #plt.title('Nationwide total Confirmed Cases, Recovered and Deceased Cases', fontsize = 20)
-    plt.savefig('/Users/harshshetye/Desktop/graphs/pie.jpg')
+    plt.savefig('path_of_the_folder_to_save_graph/graph_name.jpg')
     #plt.show()    
     #bar chart------------------------------------------------------------------------------
     plt.figure(figsize = (15,10))
@@ -60,5 +60,5 @@ def graph():
     plt.title('Total Confirmed Cases Cases Statewise', fontsize = 18 )
     for index, value in enumerate(state_data['Confirmed Cases']):
         plt.text(value, index, str(value), fontsize = 12)
-    plt.savefig('/Users/harshshetye/Desktop/graphs/bar.jpg')
+    plt.savefig('path_of_the_folder_to_save_graph/graph_name.jpg')
     #plt.show()
