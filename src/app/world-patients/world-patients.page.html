@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Global Patient Status</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-grid id="worldPatients">
+    <ion-row  *ngFor = "let columns of headers" id="header_names">
+          <ion-col >
+            {{ columns }}
+          </ion-col>
+          <br>
+          <ion-row *ngFor = "let unit of patient_units" class="unit_names">
+            {{ unit[columns] }}
+          </ion-row>
+    </ion-row>
+    <!--<ion-row *ngFor = "let unit of patient_units">
+      <ion-col *ngFor = "let unit_label of headers">
+        {{ unit[unit_label] }}
+      </ion-col>
+    </ion-row>-->
+    <ion-row>
+      <ion-col>
+        <ion-item class="emailid">
+          <ion-input  [(ngModel)]="Email" type="text" placeholder="Email id"></ion-input>
+        </ion-item>   
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-buttons>
+          <ion-button (click) = "sendGraphEmail()">
+            Send Graph on Email
+          </ion-button>
+        </ion-buttons>
+        {{ text }}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+    
+  
+  
+</ion-content>

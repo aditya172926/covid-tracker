@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Weather Report of Mumbai
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-infinite-scroll threshold="100px">
+</ion-infinite-scroll>
+<ion-grid id="weather">
+  <ion-row>
+    <ion-col *ngFor = "let columns of headers" text-color = "black">
+      {{ columns }}
+    </ion-col>
+  </ion-row>
+  <ion-row *ngFor = "let row of weather">
+    <ion-col *ngFor = "let col of headers">
+      {{ row[col] }}
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-buttons>
+        <ion-button (click)="setTab('patients')">
+          Global Patients
+        </ion-button>
+      </ion-buttons>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>

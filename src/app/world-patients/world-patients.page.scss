@@ -1,0 +1,23 @@
+ion-grid {
+    background-image: url('https://i.gifer.com/7TCP.gif');
+    background-size: cover;
+    height: 100%;
+    justify-content: center;
+}
+
+ion-button{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    margin-top: 100px;
+    margin-left: 21%;
+}
+
+.emailid{
+    margin-top: 0px;
+}
+#header_names{
+    padding-bottom: 50px;
+    font-size: 25px;
+}
