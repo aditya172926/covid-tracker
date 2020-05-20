@@ -20,8 +20,22 @@ It also has a method to send an email with 2 graphs displaying the Total active 
 
 
 Prerequisits:
-1) You need to have Typescript, Angular, Ionic, Node Js (npm) installed in your machine.
-2) To run the python scripts in the you need python3, matplotlib, Flask, numpy, pandas, requests, BeautifulSoup installed in your machine.
+1) You need to have these installed 
+Node Js (npm),
+Typescript, 
+Angular, 
+Ionic in your machine.
+
+2) To run the python scripts in the you need 
+python3, 
+matplotlib, 
+Flask, 
+numpy, 
+pandas, 
+requests, 
+BeautifulSoup,
+SMTP,
+email installed in your machine. You can install using pip.
 
 To run the project
 Clone/Download the files.
