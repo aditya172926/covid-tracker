@@ -35,6 +35,7 @@ Follow the commands here to make a new Ionic project: https://ionicframework.com
 All the python scripts must be in the same directory (folder).
 First follow the simple instructions in the sendtest.py file to pass some parameters for the email service to work.
 Follow the instructions (see strings wit underscore _ ) in line 7, 17, 21, 28, 29.
+Also see in the india.py
 
 4) Run the execute the python script named RestService.py.
 
