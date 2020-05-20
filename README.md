@@ -62,6 +62,6 @@ Also see in the india.py
 8) By entering the email id you can send the email from your email which is in the sendtest.py script. 
 MAKE SURE TO ENTER YOUR EMAIL AND PASSWORD TO SEND THE MAIL WITH THE GRAPHS.
 
-9) Also make another where you will store these 2 graphs and pass that path into india.py
+9) Also make another folder where you will store these 2 graphs and pass that path into india.py
 
 And now you are good to go.
